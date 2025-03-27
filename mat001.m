@@ -1,5 +1,5 @@
 clc;clear;close all;
-filename = "Z:\0000083\1.2.156.147522.44.410947.83.5.1.20250105111049.dcm"
+filename = ""    %此处填写文件地址
 dcm = dicomread(filename);
 info = dicominfo(filename);
 % subplot(1,2,1);imshow(dcm);
